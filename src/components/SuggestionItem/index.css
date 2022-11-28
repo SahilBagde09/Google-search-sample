@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.suggestion-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+.suggestion {
+  color: #475569;
+  font-size: 20px;
+  font-family: Roboto;
+  margin-top: 0px;
+}
+@media (max-width: 767px) {
+  .suggestion {
+    font-size: 16px;
+  }
+}
+.suggestion-arrow {
+  width: 20px;
+}
+@media (max-width: 767px) {
+  .suggestion-arrow {
+    width: 16px;
+    height: 16px;
+  }
+}
+.arrow-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
